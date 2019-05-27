@@ -88,19 +88,19 @@ input {
   margin-left: 320px;
   display: block;
 }
-#header {
+#top-nav-bar {
   background-color: #1abc9c;
   height: 150px;
   line-height: 150px;
 }
-#header a {
+#top-nav-bar a {
   color: white;
   text-decoration: none;
 
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
-#header a:hover {
+#top-nav-bar a:hover {
   color: #222;
 }
 #header-title {
@@ -110,12 +110,12 @@ input {
   font-size: 20px;
   font-weight: bold;
 }
-#header-nav {
+#header-nav-right {
   display: block;
   float: right;
   margin-top: 0;
 }
-#header-nav li {
+#header-nav-right li {
   display: inline;
   padding: 20px;
 }
