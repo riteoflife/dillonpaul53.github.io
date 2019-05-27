@@ -92,6 +92,13 @@ input {
   background-color: #1abc9c;
   height: 150px;
   line-height: 150px;
+  overflow: hidden;
+  padding: 90px 10px; /* Padding will shrink on scroll. */
+  transition: 0.4s; /* Adding a a transition effect when the padding is decreased */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99;
 }
 #top-nav-bar a {
   color: white;
